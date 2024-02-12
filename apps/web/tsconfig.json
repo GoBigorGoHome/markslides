@@ -6,12 +6,6 @@
         "name": "next"
       }
     ],
-    "baseUrl": ".",
-    "paths": {
-      "@/*": [
-        "../../packages/editor/*"
-      ]
-    }
   },
   "include": [
     "next-env.d.ts",
