@@ -111,7 +111,7 @@ function PreviewFragment(props: PreviewFragmentProps) {
 
     return (
         <Wrapper ref={wrapperRef}>
-            <style>{css}</style>
+            <style dangerouslySetInnerHTML={{ __html: css }}></style>
             <MarpitContainer
                 $currentSlideNum={currentSlideNum}
                 dangerouslySetInnerHTML={{
